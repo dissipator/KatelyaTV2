@@ -8,7 +8,7 @@ name = "katelyatv"
 name = "katelyatv"
 binding = "katelyatv_db"
 database_name = "katelyatv-db"
-database_id = "865eecce-37b3-4e89-9be9-3aa60637936a"
+database_id = "2c255af6-a9f5-4161-af1e-68b1cdb07e2d"
 
 [env.production.vars]
 # 存储类型配置
@@ -48,7 +48,7 @@ NODE_ENV = "production"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "865eecce-37b3-4e89-9be9-3aa60637936a"
+database_id = "2c255af6-a9f5-4161-af1e-68b1cdb07e2d"
 
 [build]
 command = "pnpm pages:build"
